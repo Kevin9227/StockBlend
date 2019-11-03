@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.topo {
+    background: #ce64;
+    width: 100%;
+    height: 120px;
+}
+
+.icone {
+    float: left;
+    margin: 10px 0 0 160px
+}
+
+.icone img {
+    width: 90px;
+    height: 80px;
+
+}
+
+.menu {
+    margin-left: 800px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-flex;
+    padding: 10px
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13pt;
+}
+
+.menu a:hover {
+    color: #ff6600;
+    font-size: 13pt;
+}
+
+
+
+.conteudo {
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background: url('../img/burger-3442227_1920.jpg')fixed no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.infor {
+    width: 100%;
+    background: url('../img/fundo01.jpg') fixed;
+    background-position: bottom;
+    background-size: 40%;
+    padding-bottom: 150px;
+    font-size: 14pt;
+}
+
+.borda {
+    position: absolute;
+    margin: 25px 90px;
+}
+
+.infor #ifo01 {
+    color: #c60;
+
+}
+
+.infor #ifo02 {
+    color: #c60;
+    float: left;
+    padding: 20px;
+    margin: -110px 0 0 550px;
+}
+
+.infor #ifo03 {
+    color: #c60;
+    float: right;
+    margin: -120px 0 0 250px;
+}
+
+
+.cont_top h1 {
+    color: #ff6600;
+    font-size: 50pt;
+    font-family: monospace;
+}
+
+.cont_top p {
+    font: 20pt monospace;
+
+}
+
+.cont_top {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Responsividade*/
+@media(max-width:1024px) {
+    .menu {
+        margin: auto;
+        display: block;
+        font: 12pt;
+
+    }
+
+    .cont_top h1 {
+        font-size: 35pt;
+    }
+
+    .icone img {
+        visibility: hidden;
+    }
+}
+
+/* Fim de responsividade*/
+hr {
+    width: 20%;
+    margin: 0 auto;
+    height: 2px;
+    background: #000;
+    border-color: #000;
+    border-radius: 100%;
+}
+
+.btn {
+    border: none;
+    background: #ff6600;
+    width: 90px;
+    height: 40px;
+    color: #f2f2f2;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background: #c60;
+    cursor: pointer;
+}
+
+footer {
+    background: #578;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+footer p {
+    padding: 50px;
+
+}
+
+footer p a {
+    color: #c60;
+    text-decoration: none;
+}
