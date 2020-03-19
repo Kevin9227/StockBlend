@@ -7,6 +7,7 @@
     <meta name="author" content="Your Name">
     <meta name="description" content="Example description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/davuca.css">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
@@ -14,7 +15,6 @@
     <header class='topo'>
         <div class="icone">
             <a href="index.html"><img src="img/logo-kc.png" alt=""></a>
-
         </div>
         <nav class="menu">
             <ul>
@@ -28,20 +28,20 @@
         </nav>
     </header>
     <main>
-        <form action=""> 
-            <fieldset>            
-            <P>Nome</P> 
-            <input type="text" name="nome" id="nome" placeholder="Nome Completo">
-           <p>E-mail</p>
-             <input type="email" name="email" id="email" placeholder="E-mail">
-            
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Deixa aquim a sua mensagem"></textarea>
-         <br>
-         <input type="submit" value="Enviar" id="env">
+        <fieldset> 
+            <legend>Contactos</legend>               
+            <form action=""> 
+                <label for="nome">Nome</label> 
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Deixa aquim a sua mensagem"></textarea>
+                <br>
+                <input type="submit" value="Enviar" id="env">
+            </form>
         </fieldset>
-        </div>
         
-        </form>
     </main>
     <footer>
         <p>Todos direitos reservados a &copy;<a href="#"> HendaSoft</a> 2019</p>
