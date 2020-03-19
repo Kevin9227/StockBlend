@@ -107,6 +107,54 @@
     margin: 0 auto;
     text-align: center;
 }
+form{
+    padding: 20px;
+}
+fieldset{
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 250px 0 350px;
+    background: #ce64;
+    border:none;
+    border-radius: 15px;
+}
+fieldset #nome, #email{
+    width: 200px;
+    padding: 10px;
+    margin: 5px ;
+
+
+}
+fieldset p{
+    position: absolute;
+    margin-left: 19px;
+
+}
+fieldset #msg{
+    width: 450px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+fieldset #env{
+    width: 450px;
+    height: 35px;
+    color: azure;
+    background-color: #c60;
+    font-size: 15pt;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+fieldset #env:hover{
+    cursor: pointer;
+    color: #000;
+    background: rgba(204, 102, 0, 0.486);
+}
+.form-control{
+    background: rgba(#458, #474, #471, 0.5);
+}
 
 /* Responsividade*/
 @media(max-width:1024px) {
@@ -143,8 +191,12 @@ hr {
     height: 40px;
     color: #f2f2f2;
     border-radius: 25px;
+    
 }
-
+.btn a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
 .btn:hover {
     background: #c60;
     cursor: pointer;
